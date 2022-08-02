@@ -3,11 +3,11 @@
     <h1>Aswath's Version of DevOps course by Valaxy Tech on Udemy</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
-     
+
     <label for="Name"><b>Enter Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
-    
+
     <label for="mobile"><b>Enter mobile</b></label>
     <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
     <br>
@@ -31,9 +31,15 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1> Thankyou, Happy Learning </h1>
+  <h1> Thankyou, Happy Learning </h1>
 
 
-   <h2>Simple update</h2>
-  
+  <h2>Simple update</h2>
+  <h1 id="stewie_griffin"> Here !!</h1>
 </form>
+
+  stewie_griffin.textContent = window.location.href
+
+<script>
+
+</script>
